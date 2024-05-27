@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<style>.unit:nth-child(5n + 1) { --i: 0 }
+  .unit:nth-child(n + 1) { --j: 0 }.unit:nth-child(5n + 2) { --i: 1 }
+  .unit:nth-child(n + 6) { --j: 1 }.unit:nth-child(5n + 3) { --i: 2 }
+  .unit:nth-child(n + 11) { --j: 2 }.unit:nth-child(5n + 4) { --i: 3 }
+  .unit:nth-child(n + 16) { --j: 3 }.unit:nth-child(5n + 5) { --i: 4 }
+  .unit:nth-child(n + 21) { --j: 4 }.side:nth-child(1) { --idx: 0 }.side:nth-child(2) { --idx: 1 }.side:nth-child(3) { --idx: 2 }
+</style>
+<div class="a3d" style="--n: 5">
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 6.14s; --to: 1.6s; --dt: -4.36s; --cx: 0.55">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 5.75s; --to: 1.68s; --dt: -2.32s; --cx: 0.58">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 5.05s; --to: 1.54s; --dt: -2.81s; --cx: 0.3">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 5.3s; --to: 1.91s; --dt: -3.73s; --cx: 0.26">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 6.69s; --to: 1.03s; --dt: -4.79s; --cx: 0.82">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 5.13s; --to: 1.72s; --dt: -2.99s; --cx: 0.54">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 6.54s; --to: 1.75s; --dt: -1.64s; --cx: 0.73">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit anim" style="--tr: 6.82s; --to: 1.94s; --dt: -1.76s; --cx: 0.26">
+    <div class="cube shdw">
+      <div class="half"></div>
+      <div class="half"></div>
+    </div>
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+  <div class="unit">
+    <div class="gate shdw">
+      <div class="inner later">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+      <div class="front"></div>
+      <div class="outer later"></div>
+    </div>
+  </div>
+</div>
+    <div class="date">
+        <h3>Will you go on a date with me?</h3>
+        <p class="text"></p>
+        <button id="sendButton">Yes</button>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
